@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+}
+
+body{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container__line-one{
+  min-height: 100vh;
+  background-color: #142b6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  color: white;
+  font-weight: bold;
+  /* list-style: circle; */
+  /* list-style:armenian;
+  list-style:decimal; */
+  /* list-style:decimal-leading-zero;
+  list-style:georgian;
+  list-style:upper-roman; */
+}
+
+li::marker{
+  color: #ffd601;
+}

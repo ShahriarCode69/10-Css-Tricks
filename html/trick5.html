@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/trick5.css">
+</head>
+
+<body>
+  <header>
+    <nav class="primary-navigation">
+      <h1>ShahriarCode</h1>
+      <ul>
+        <li>
+          <a href="#Home">Home</a>
+        </li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Blogs">Blogs</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="Home">
+      <h2>Homepage</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia debitis assumenda ut perferendis
+        consectetur nemo molestiae hic, fuga sapiente commodi voluptas amet numquam officiis adipisci alias quisquam
+        totam sit recusandae veniam! Consectetur consequuntur nostrum distinctio rem tenetur corrupti fuga explicabo
+        nobis similique reprehenderit. Maiores, dignissimos. Ad voluptates cumque recusandae praesentium, quam neque,
+        sequi fugit nam quo temporibus tenetur quae, soluta rem veritatis atque quisquam enim omnis. Officiis libero
+        similique ducimus incidunt inventore quidem quas?</p>
+    </section>
+    <section class="inverse" id="About">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia debitis assumenda ut perferendis
+        consectetur nemo molestiae hic, fuga sapiente commodi voluptas amet numquam officiis adipisci alias quisquam
+        totam sit recusandae veniam! Consectetur consequuntur nostrum distinctio rem tenetur corrupti fuga explicabo
+        nobis similique reprehenderit. Maiores, dignissimos. Ad voluptates cumque recusandae praesentium, quam neque,
+        sequi fugit nam quo temporibus tenetur quae, soluta rem veritatis atque quisquam enim omnis. Officiis libero
+        similique ducimus incidunt inventore quidem quas?</p>
+    </section>
+    <section id="Blogs">
+      <h2>Blogs</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia debitis assumenda ut perferendis
+        consectetur nemo molestiae hic, fuga sapiente commodi voluptas amet numquam officiis adipisci alias quisquam
+        totam sit recusandae veniam! Consectetur consequuntur nostrum distinctio rem tenetur corrupti fuga explicabo
+        nobis similique reprehenderit. Maiores, dignissimos. Ad voluptates cumque recusandae praesentium, quam neque,
+        sequi fugit nam quo temporibus tenetur quae, soluta rem veritatis atque quisquam enim omnis. Officiis libero
+        similique ducimus incidunt inventore quidem quas?</p>
+    </section>
+    <section class="inverse" id="Contact">
+      <h2>Contact</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia debitis assumenda ut perferendis
+        consectetur nemo molestiae hic, fuga sapiente commodi voluptas amet numquam officiis adipisci alias quisquam
+        totam sit recusandae veniam! Consectetur consequuntur nostrum distinctio rem tenetur corrupti fuga explicabo
+        nobis similique reprehenderit. Maiores, dignissimos. Ad voluptates cumque recusandae praesentium, quam neque,
+        sequi fugit nam quo temporibus tenetur quae, soluta rem veritatis atque quisquam enim omnis. Officiis libero
+        similique ducimus incidunt inventore quidem quas?</p>
+    </section>
+  </main>
+
+  <script>
+    const navigation = document.querySelector(".primary-navigation");
+
+    const navigationHeight = navigation.offsetHeight;
+
+    document.documentElement.style.setProperty(
+      "--scroll-padding",
+      navigationHeight + "px"
+    );
+
+  </script>
+</body>
+
+</html>
